@@ -28,7 +28,13 @@ To provide a simple and eco-friendly solution for managing and recycling househo
 - AI-based waste classification
 
 ## Screenshots
-(Add project screenshots here)
+
+<p align="center">
+  <img src="Screenshots/1.png" width="30%">
+  <img src="Screenshots/2.png" width="30%">
+  <img src="Screenshots/3.png" width="30%">
+</p>
+
 
 ## Run Locally
 
