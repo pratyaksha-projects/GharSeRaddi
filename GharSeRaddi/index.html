@@ -186,7 +186,7 @@
       id="search-mobile-btn"
       class="px-3 py-2 rounded-r-full border border-softBlue border-l-0 text-sm hover:bg-softBlue/70"
     >
-      🔍
+  
     </button>
   </div>
 
@@ -293,7 +293,7 @@
               <div class="flex items-center justify-between mb-2">
                 <div class="flex items-center gap-2">
                   <div class="w-8 h-8 rounded-full bg-teal/90 text-offWhite flex items-center justify-center text-sm">
-                    📄
+                  
                   </div>
                   <h3 class="font-semibold text-lg" id="service-paper-title">Paper</h3>
                 </div>
@@ -322,7 +322,7 @@
               <div class="flex items-center justify-between mb-2">
                 <div class="flex items-center gap-2">
                   <div class="w-8 h-8 rounded-full bg-teal/90 text-offWhite flex items-center justify-center text-sm">
-                    🧴
+                  
                   </div>
                   <h3 class="font-semibold text-lg" id="service-plastic-title">Plastic</h3>
                 </div>
@@ -350,7 +350,7 @@
               <div class="flex items-center justify-between mb-2">
                 <div class="flex items-center gap-2">
                   <div class="w-8 h-8 rounded-full bg-teal/90 text-offWhite flex items-center justify-center text-sm">
-                    💻
+        
                   </div>
                   <h3 class="font-semibold text-lg" id="service-ewaste-title">Electronics</h3>
                 </div>
@@ -675,7 +675,7 @@
 let translations = {};
 let currentLang = "en"; // default English
 
-// 1️⃣ Load JSON file
+// Load JSON file
 async function loadTranslations() {
   try {
     const res = await fetch("assets/lang.json");
@@ -686,7 +686,7 @@ async function loadTranslations() {
   }
 }
 
-// 2️⃣ Apply selected language to all IDs
+// Apply selected language to all IDs
 function applyLanguage(lang) {
   const dict = translations[lang];
   for (const id in dict) {
@@ -701,13 +701,13 @@ function applyLanguage(lang) {
   currentLang = lang;
 }
 
-// 3️⃣ Toggle language on click
+// Toggle language on click
 document.getElementById("lang-toggle")?.addEventListener("click", () => {
   const nextLang = currentLang === "en" ? "hi" : "en";
   applyLanguage(nextLang);
 });
 
-// 4️⃣ Load everything on page load
+// Load everything on page load
 loadTranslations();
 
     // -------- SEARCH LOGIC (filters Our Services cards) --------
