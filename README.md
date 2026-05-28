@@ -1,31 +1,50 @@
 # GharSeRaddi
 
-GharSeRaddi is a smart doorstep scrap collection platform designed to make selling household waste simple, transparent, and convenient.
+GharSeRaddi is a full-stack scrap collection platform built to simplify doorstep waste pickup and make recycling more accessible and organized. The platform allows users to request pickups, explore scrap categories, and manage scrap collection workflows through a clean and responsive interface.In world with everything online this is the facility to be used in very daily basis.
 
 ## Features
-- Doorstep scrap pickup
-- Transparent scrap pricing
-- Multiple categories (Paper, Plastic, E-waste)
-- Responsive UI design
-- Language toggle (English / Hindi)
-- Search and filter functionality
-- Contact and pickup request form
+
+- Doorstep scrap pickup request system
+- Multiple scrap categories (Paper, Plastic, Metal, E-waste)
+- Responsive and user-friendly UI
+- Search and filtering functionality
+- English / Hindi language toggle
+- Contact and pickup request forms
+- REST API based backend integration
+- Role-based workflow structure
 
 ## Tech Stack
-- HTML
+
+### Frontend
+- React.js
 - Tailwind CSS
 - JavaScript
-- Formspree
+
+### Backend
+- Node.js
+- Express.js
+
+### Database
+- MongoDB
+
+### Other Tools
+- JWT Authentication
+- REST APIs
+- Axios
 
 ## Project Goal
-To provide a simple and eco-friendly solution for managing and recycling household scrap efficiently.
+
+The goal of this project is to create a simple and efficient digital solution for household scrap management while promoting organized recycling and waste collection practices.
 
 ## Future Improvements
-- User authentication
+
 - Pickup scheduling system
-- Admin dashboard
-- Real-time tracking
+- Admin dashboard for managing requests
+- Collector-side dashboard
+- Live pickup tracking
+- Email and notification support
 - AI-based waste classification
+- Analytics dashboard for scrap collection insights
 
 ## Screenshots
 
@@ -35,14 +54,10 @@ To provide a simple and eco-friendly solution for managing and recycling househo
   <img src="Screenshots/3.png" width="30%">
 </p>
 
-
 ## Run Locally
 
 ```bash
 git clone https://github.com/pratyaksha-projects/GharSeRaddi.git
 cd GharSeRaddi
-open index.html
-```
-
-## Author
-Pratyaksha Saini
+npm install
+npm start
